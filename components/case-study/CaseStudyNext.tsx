@@ -30,7 +30,7 @@ export function CaseStudyNext({ study }: CaseStudyNextProps) {
               viewBox="0 0 32 32"
               fill="none"
               aria-hidden="true"
-              className="flex-shrink-0 transition-transform duration-250 group-hover:translate-x-1"
+              className="flex-shrink-0 transition-transform duration-250 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
             >
               <path
                 d="M8 16H24M24 16L18 10M24 16L18 22"

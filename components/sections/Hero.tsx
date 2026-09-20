@@ -54,14 +54,12 @@ export function Hero() {
               animate="visible"
               custom={0}
             >
-              Roshan&nbsp;&nbsp;&middot;&nbsp;&nbsp;Engineering student, DSCE
-              Bengaluru&nbsp;&nbsp;&middot;&nbsp;&nbsp;Builder &amp; digital
-              strategist
+              Roshan · Bengaluru · Build / Grow / Speak
             </motion.p>
 
             {/* H1 */}
-            <h1 className="text-display text-ink">
-              <span className="block overflow-hidden">
+            <h1 className="text-display text-ink max-w-[1050px]">
+              <span className="block overflow-hidden pb-0.5 -mb-0.5">
                 <motion.span
                   className="block"
                   variants={shouldReduceMotion ? undefined : LINE_VARIANTS}
@@ -69,10 +67,11 @@ export function Hero() {
                   animate="visible"
                   custom={0}
                 >
-                  Still in college.
+                  I love solving real-world problems
                 </motion.span>
               </span>
-              <span className="block overflow-hidden">
+
+              <span className="block overflow-hidden pb-0.5 -mb-0.5">
                 <motion.span
                   className="block"
                   variants={shouldReduceMotion ? undefined : LINE_VARIANTS}
@@ -80,10 +79,9 @@ export function Hero() {
                   animate="visible"
                   custom={1}
                 >
-                  Already building for{" "}
-                  <em className="font-serif italic">real</em> businesses.
+                  and building things people actually use.
                 </motion.span>
-              </span>
+          </span>
             </h1>
 
             {/* Lead */}
@@ -94,10 +92,11 @@ export function Hero() {
               animate="visible"
               custom={3}
             >
-              I&rsquo;m Roshan. I build backend and AI systems, run digital
-              growth for businesses, and host the show when someone hands me a
-              microphone. I&rsquo;m early in my career, and I&rsquo;m already
-              doing the work.
+              I&rsquo;m Roshan. I&rsquo;m an Electronics &amp; Telecommunication
+              Engineering student at DSCE Bengaluru who likes starting with
+              problems rather than technologies. I build AI and backend systems,
+              work with real businesses, and figure out whatever I need to make
+              an idea useful.
             </motion.p>
 
             {/* CTA row */}

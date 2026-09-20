@@ -82,7 +82,7 @@ export function WorkRow({ study }: WorkRowProps) {
               aria-hidden="true"
               className={cn(
                 'flex-shrink-0 mt-2 transition-transform duration-250',
-                hovered && 'translate-x-1'
+                hovered && 'scale-105'
               )}
             >
               <path

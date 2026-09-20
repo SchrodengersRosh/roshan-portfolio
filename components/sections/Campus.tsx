@@ -71,7 +71,7 @@ export function Campus() {
                         i > 0 && 'border-t border-rule'
                       )}
                     >
-                      <p className="text-h3 font-serif text-ink transition-transform duration-250 group-hover:translate-x-2">
+                      <p className="text-h3 font-serif text-ink transition-transform duration-250 group-hover:scale-105">
                         {event.name}
                       </p>
                       {event.role && (
