@@ -81,7 +81,7 @@ export function Hero() {
                 >
                   and building things people actually use.
                 </motion.span>
-          </span>
+              </span>
             </h1>
 
             {/* Lead */}

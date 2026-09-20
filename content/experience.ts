@@ -32,7 +32,7 @@ export const experienceEntries: ExperienceEntry[] = [
       shown: 'Adify and other US-based clients',
       hidden: 'US-based clients',
     },
-    title: 'Adify and other US-based clients',
+    title: 'US-based clients',
     text: 'Customer outreach and email marketing campaigns for US-based clients: audience research, sequence writing, list hygiene, and lead generation workflows. Working across time zones with people who expect clear written communication.',
     tags: ['Outreach', 'Email marketing', 'Lead generation', 'Remote collaboration'],
   },

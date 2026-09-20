@@ -189,6 +189,7 @@ export function Nav() {
             ref={menuRef}
             role="dialog"
             aria-label="Navigation menu"
+            aria-modal="true"
             initial={{ opacity: shouldReduceMotion ? 1 : 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: shouldReduceMotion ? 1 : 0 }}

@@ -18,12 +18,6 @@ export const aboutFacts: AboutFact[] = [
     label: 'Good at',
     value: 'Explaining technical things to non-technical people',
   },
-  {
-    label: 'Currently reading / listening',
-    // TODO: Replace with what you're actually reading or listening to
-    value: '(edit in content/about.ts)',
-    optional: true,
-  },
 ];
 
 /** Set to true to show optional facts like "Currently reading / listening" */
